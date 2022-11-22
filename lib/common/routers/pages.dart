@@ -10,5 +10,9 @@ class RoutePages {
       page: () => const LoginPage(),
       binding: LoginBinding(),
     ),
+    GetPage(
+      name: '/splash',
+      page: () => const SplashPage(),
+    )
   ];
 }
